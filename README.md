@@ -1,10 +1,10 @@
-# 📈 Yahoo Finance Stock Scraper & MongoDB Viewer
+# Yahoo Finance Stock Scraper & MongoDB Viewer
 
 This project scrapes the **most active stocks** from Yahoo Finance using Python, stores the data in a **MongoDB collection**, and serves it via a PHP frontend for local web viewing.
 
 ---
 
-## 🛠️ Features
+## Features
 
 - Scrapes live stock data (symbol, name, price, change, volume) from [Yahoo Finance](https://finance.yahoo.com/most-active)
 - Handles web failures with a fallback to a local HTML file
@@ -13,7 +13,7 @@ This project scrapes the **most active stocks** from Yahoo Finance using Python,
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 | File | Description |
 |------|-------------|
@@ -23,7 +23,7 @@ This project scrapes the **most active stocks** from Yahoo Finance using Python,
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Start MongoDB
 Make sure MongoDB is running on `localhost:27017`
@@ -41,7 +41,7 @@ http://localhost/31586302_Problem1.php
 
 ---
 
-## 📚 Technologies Used
+## Technologies Used
 
 - **Python**: Web scraping with `requests`, `BeautifulSoup`
 - **MongoDB**: NoSQL database for storing stock data
@@ -49,7 +49,7 @@ http://localhost/31586302_Problem1.php
 
 ---
 
-## 💡 Example Output
+## Example Output
 
 After running the scraper, you'll see a webpage displaying the most active stocks with the following fields:
 - Symbol
