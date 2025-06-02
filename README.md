@@ -1,6 +1,7 @@
 # Yahoo Finance Stock Scraper & MongoDB Viewer
 
 This project scrapes the **most active stocks** from Yahoo Finance using Python, stores the data in a **MongoDB collection**, and serves it via a PHP frontend for local web viewing.
+This was compiled and ran on Linux and is compatible with all Unix-based machines.
 
 ---
 
